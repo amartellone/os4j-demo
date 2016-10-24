@@ -3,9 +3,15 @@
 
 This repository contains a set of java samples based on the SDK OpenStack4j, which allows provisioning and control of an OpenStack deployment. 
 
-## Maven
+## Example
 
-Add to pom.xml the following dependencies
+* Infrastructure.java: Print the basic information about a cloud environment. 
+* LaunchVM.java: Launch an Ubuntu VM, using a keypair and adding a floating IP.
+* ManageStorage.java: Create a Cinder volume and a new Swift container.
+
+## How to run it
+
+We suggest to use Maven and add to pom.xml the following dependencies:
 
 ```xml
 <dependency>
@@ -26,6 +32,12 @@ Add to pom.xml the following dependencies
 </dependency>
 ```
 
+Edit the file resources/config.sample.properties and save it as config.sample.
+Here, you should enter the basic information about your Openstack deployment.
+
+openstack.username=myusername
+openstack.pwd=mypwd
+openstack.tenantName=mytenantid
 
 ## Openstack4j links
 
