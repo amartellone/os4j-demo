@@ -7,6 +7,7 @@ This repository contains a set of java samples based on the SDK OpenStack4j, whi
 
 Add to pom.xml the following dependencies
 
+```xml
 <dependency>
   <groupId>org.pacesys</groupId>
   <artifactId>openstack4j</artifactId>
@@ -23,7 +24,7 @@ Add to pom.xml the following dependencies
 <artifactId>slf4j-simple</artifactId>
 <version>1.7.20</version>
 </dependency>
-
+```
 
 
 ## Openstack4j links
